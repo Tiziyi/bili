@@ -45,6 +45,18 @@ get_sh_bili() {
 get_sh_bili && ql raw $url
 echo "已为您添加运行海尔破"
 sleep 5
+task_haier() {
+   task 
+}
 
+read -p "是否运行一次海尔破（运行选项为 y，不运行为 n，回车为不运行）请输入：" haier
+    haier=${haier:-'n'}
+if [ "${haier}" = 'n' ]; then
+    echo "运行一次海尔破"
+task raw_main_bili.sh
+else
+    echo "已为您跳过运行"
+fi
+    
 # 提示配置结束
 echo -e "\n配置到此结束，请前往/ql/config/bilibili.json填入配置"
