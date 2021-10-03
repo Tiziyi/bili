@@ -47,6 +47,5 @@ echo "已为您添加运行海尔破"
 sleep 5
 echo "运行一次海尔破"
 task raw_main_bili.sh
-
 # 提示配置结束
 echo -e "\n配置到此结束，请前往/ql/config/bilibili.json填入配置"
