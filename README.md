@@ -10,7 +10,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.g
 
 * jar包默认保存位置为/ql/scripts/bilibili/,如果您想更改这个路径,请更改/ql/scripts/raw_main_bili_update.sh内第9·10·12行/ql/scripts/bilibili/为您想保存位置的绝对路径.
 
-* 修改了jay包围着请一起修改/ql/scripts/raw_main_bili.sh内/ql/scripts/bilibili/为您保存位置的绝对路径.
+* 修改了jay包保存位置请一起修改/ql/scripts/raw_main_bili.sh内/ql/scripts/bilibili/为您保存位置的绝对路径.
 
 * 请勿将项目的任何内容用于商业或非法目的，否则后果自负.
 
