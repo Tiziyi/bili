@@ -50,5 +50,5 @@ fi
 files=$(ls *.json)
 for file_name in $files ;do
    echo $file_name
-	java -jar BILIBILI-HELPER.jar $file_name
+##	java -jar BILIBILI-HELPER.jar $file_name
 done
