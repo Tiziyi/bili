@@ -51,7 +51,7 @@ task_haier() {
 
 read -p "是否运行一次海尔破（运行选项为 y，不运行为 n，回车为不运行）请输入：" haier
     haier=${haier:-'n'}
-if [ "${haier}" = 'n' ]; then
+if [ "${haier}" = 'y' ]; then
     echo "运行一次海尔破"
 task raw_main_bili.sh
 else
